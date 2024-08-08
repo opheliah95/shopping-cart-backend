@@ -14,7 +14,7 @@ app.get("/", (req,res)=> {
 })
 // product route
 app.get("/products", (req,res)=> {
-    res.send([2,3,4])
+    res.send(products)
 
 })
 
